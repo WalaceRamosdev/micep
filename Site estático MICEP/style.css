@@ -100,7 +100,7 @@
     width: 300px;
     margin: 20px;
     border: 1px solid black;
-    box-shadow: 3px 2px 2px 1px rgba(0, 0, 0, 0.521);
+    box-shadow: 3px 2px 4px 1px rgba(0, 0, 0, 0.521);
 }
 
 .txtLat {
@@ -113,6 +113,8 @@
     display: grid;
     grid-auto-flow: column;
     columns: auto;
+    margin: 20px;
+    border-radius: 15px;
 }
 
 #titlePost, #frasePost {
@@ -125,4 +127,5 @@
     background-color: rgba(0, 0, 0, 0.219);
     border-radius: 30px;
     font-style: italic;
+    box-shadow:3px 5px 8px 1px rgba(0, 0, 0, 0.521);
 }
