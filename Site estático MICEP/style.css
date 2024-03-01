@@ -11,6 +11,11 @@
     height: 100px;
 }
 
+.navBarSub {
+    margin: 15px;
+    text-align: center;
+}
+
 .nav-link {
     font-weight: bold;
 }
@@ -23,6 +28,10 @@
 #instagram, #youtube, #facebook {
     margin: 15px;
     
+}
+
+.voltar {
+    margin: auto;
 }
 
 #paico {
@@ -40,6 +49,39 @@
     text-align: center;
     margin: 80px;
     font-size: 1.3em;
+}
+
+.conteinerSobre {
+    background-color: rgba(0, 0, 0, 0.048);
+    border-radius: 15px 15px 0px 0px ;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 20px 20px 0px 20px;
+    
+}
+
+.conteinerSobre2 {
+    background-color: rgba(0, 0, 0, 0.048);
+    border-radius: 0px 0px 15px 15px ;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 0px 20px 20px 20px;
+    
+}
+
+
+.txtSobre {
+    background-color: rgba(0, 0, 0, 0.219);
+    border-radius: 30px;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+.imgSobre {
+    margin: 30px;    
 }
 
 .carrossel {
