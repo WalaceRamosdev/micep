@@ -58,7 +58,6 @@
     grid-auto-flow: column;
     columns: auto;
     margin: 20px 20px 0px 20px;
-    
 }
 
 .conteinerSobre2 {
@@ -71,6 +70,17 @@
     
 }
 
+.txtSobre > h1 {
+    font-style: italic;
+    text-decoration: underline;
+    padding-bottom: 25px;
+}
+
+.txtSobre > p {
+    font-style: italic;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.596);
+}
 
 .txtSobre {
     background-color: rgba(0, 0, 0, 0.219);
@@ -78,6 +88,8 @@
     padding: 15px;
     margin: auto;
     text-align: center;
+    box-shadow:3px 5px 8px 1px rgba(0, 0, 0, 0.521);
+
 }
 
 .imgSobre {
@@ -88,7 +100,7 @@
     width: 300px;
     margin: 20px;
     border: 1px solid black;
-    box-shadow: 3px 2px 5px 1px rgba(0, 0, 0, 0.521);
+    box-shadow: 3px 2px 2px 1px rgba(0, 0, 0, 0.521);
 }
 
 .txtLat {
