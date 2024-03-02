@@ -11,6 +11,22 @@
     height: 100px;
 }
 
+.navbar-nav {
+    margin: auto;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+a:hover {
+    text-shadow: 0px 1px 8px rgba(0, 0, 0, 0.644) ;
+    
+}
+
 .navBarSub {
     margin: 15px;
     text-align: center;
